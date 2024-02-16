@@ -14,6 +14,8 @@ class TreeNode(object):
 
 # 完全二叉树的数组建树
 def BuildTree(array):
+    if not len(array):
+        return None
     l = []
     root = TreeNode(array[0])
     l.append(root)
