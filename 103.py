@@ -1,5 +1,5 @@
 import collections
-from binary_tree import BuildTree
+from utils.binary_tree import BuildTree
 
 
 def BFS(root):

@@ -1,4 +1,4 @@
-from binary_tree import BuildTree
+from utils.binary_tree import BuildTree
 
 
 def DFS(node, col_num, r_dic, row_num):
